@@ -1,0 +1,36 @@
+[
+	{
+		"id": 0,
+		"type": "generic",
+		"level": 1,
+		"damage": 2,
+		"shield": 0,
+		"mutagens": ["red"],
+		"location": "2",
+		"moves": "4",
+		"priotity": "higher",
+		"pokerResult": [1, 2, 3, 4, 4],
+		"phaseAbility1": ["alchemy", "speciality", "trail"],
+		"phaseAbility2": ["monster"],
+		"phase3Ability": [6],
+		"monsterAction": "bite",
+		"fightAbility": []
+	},
+	{
+		"id": 1,
+		"type": "generic",
+		"level": 1,
+		"damage": 1,
+		"shield": 2,
+		"mutagens": [],
+		"location": "8",
+		"moves": "1",
+		"priotity": "higher",
+		"pokerResult": [1, 5, 2, 2, 2],
+		"phaseAbility1": ["lowestAttribute", "defense"],
+		"phaseAbility2": ["monster"],
+		"phase3Ability": [4, 6],
+		"monsterAction": "bite",
+		"fightAbility": ["maxShield"]
+	}
+]
